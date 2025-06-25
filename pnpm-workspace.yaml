@@ -1,0 +1,4 @@
+packages:
+  - "configs"
+  - "rsbuild-with-graph"
+  - "rsbuild-with-graph/fixtures/*"

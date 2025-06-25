@@ -1,0 +1,20 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "rsbuild build",
+    "start": "node dist/node/index.js"
+  },
+  "dependencies": {
+    "client-only": "0.0.1",
+    "lib-with-conditions": "workspace:*",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-server-dom-webpack": "^19.1.0",
+    "server-only": "0.0.1"
+  },
+  "devDependencies": {
+    "@project/configs": "workspace:*",
+    "@rsbuild/core": "^1.3.22",
+    "rsbuild-with-graph": "workspace:*"
+  }
+}

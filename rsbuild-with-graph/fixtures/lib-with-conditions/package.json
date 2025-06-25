@@ -1,0 +1,12 @@
+{
+  "name": "lib-with-conditions",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./types.d.ts",
+      "react-server": "./react-server.js",
+      "default": "./default.js"
+    },
+    "./package.json": "./package.json"
+  }
+}

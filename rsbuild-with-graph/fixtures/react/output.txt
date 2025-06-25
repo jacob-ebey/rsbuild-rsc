@@ -1,0 +1,21 @@
+{
+  "msg": "shared-client",
+  "shared": {
+    "msg": "shared-client"
+  },
+  "prerender": {
+    "msg": "shared-client",
+    "shared": {
+      "msg": "shared-client"
+    },
+    "decoded": {
+      "msg": "shared-react-server",
+      "shared": {
+        "msg": "shared-react-server"
+      }
+    }
+  },
+  "sharedServer": {
+    "msg": "shared-react-server"
+  }
+}
