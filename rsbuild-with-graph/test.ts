@@ -15,9 +15,9 @@ function cleanOutput(str: string): string {
 }
 
 for (const fixture of fixtures) {
-  test(`fixture: ${fixture}`, async (t) => {
+  test(`fixture: ${fixture}`, async () => {
     // run npm run build
-    const { stdout: buildOutput } = await execAsync("pnpm build", {
+    const { stdout: buildOutput } = await execAsync("pnpm test:build", {
       cwd: `./fixtures/${fixture}`,
     });
     expect(buildOutput.toString()).toMatch(/ready/);

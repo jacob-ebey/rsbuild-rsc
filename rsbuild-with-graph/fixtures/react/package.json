@@ -1,7 +1,7 @@
 {
   "private": true,
   "scripts": {
-    "build": "rsbuild build",
+    "test:build": "rsbuild build",
     "start": "node dist/node/index.js"
   },
   "dependencies": {
